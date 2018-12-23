@@ -41,20 +41,43 @@ background-color: #E6E6FA;
 border-radius:6px;
 }
 
-div.aboutus{
+div.about{
 padding:10px 0 30px 0;
 background-color: #E6E6FA;
--webkite-border-radius:6px;
+-webkit-border-radius:6px;
 -moz-border-radius:6px;
 border-radius:6px;
 }
 
-div.CProfile{
-padding:10px 0 30px 0;
-backgroun-color:#E6E6FA;
--webkite-border-radius:6px;
--moz-border-radius:6px;
-border-radius:6px;
+div.contact{
+	padding:10px 0 30px 0;
+	background-color:#E6E6FA;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+
+div.clients{
+	padding:10px 0 30px 0;
+	background-color:#E6E6FA;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+div.partners{
+	padding:10px 0 30px 0;
+	background-color: #E6E6FA;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+
+div.demo{
+	padding:10px 0 30px 0;
+	background-color: #E6E6FA;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
 }
 
 h2 {

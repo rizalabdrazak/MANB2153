@@ -14,16 +14,27 @@ app=Flask(__name__)
 def home():
     return render_template("home.html")
 
-@app.route('/AboutUs/')
+@app.route('/aboutus/')
 
 def about():
     return render_template("aboutus.html")
 
-@app.route('/CompanyProfile/')
+@app.route('/contact/')
 
-def CProfile():
-    return render_template("cprofile.html")
+def contact():
+    return render_template("contact.html")
 
+@app.route('/clients/')
+def clients():
+    return render_template("client.html")
+
+@app.route('/partners/')
+def partners():
+    return render_template("partners.html")
+
+@app.route('/demo/')
+def demo():
+    return render_template("demo.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
